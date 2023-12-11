@@ -32,8 +32,12 @@ origin	git@github.com:repos/repo.git (push)
 
 origin	https://github.com:repos/repo.git (fetch) -> HTTP  
 origin	https://github.com:repos/repo.git (push)
-### If your repos is cloned with HTTP before, you could also switch to SSH by doing steps 1->6
-
+### If your repos is cloned with HTTP before, you could also switch to SSH by doing steps, then: 
+- Make sure you check the syntax properly, especially git@github.com<strong>:repos/repo.git</strong>
+```
+git remote set-url origin git@github.com:repos/repo.git
+```
+- Then check again with ```git remote -v```
 -----------------
 ### Refenrence
 [1].  https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
