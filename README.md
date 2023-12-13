@@ -38,7 +38,7 @@ origin	https://github.com:repos/repo.git (push)
 git remote set-url origin git@github.com:repos/repo.git
 ```
 - Then check again with ```git remote -v```
-### If your repos is now can be cloned using SSH, but you can not pull/push:
+### If your repos can be cloned now using SSH, but you can not pull/push:
 - Check your identity such as email and name.
 - Make your the email in <strong>.ssh/id_ed25519.pub</strong> be same as email in ```git config --list```. If not, change it!
 -----------------
