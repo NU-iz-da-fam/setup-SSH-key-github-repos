@@ -20,6 +20,10 @@ ssh-add ~/.ssh/id_ed25519
 ```bash
 gedit id_ed25519.pub
 ```
+or use
+```
+cat ~/.ssh/id_ed25519.pub
+```
 6. In your account <strong>Settings</strong>, choose <strong>SSH and GPG Keys</strong>. Choose <strong>New SSH key</strong>.  
    Label your new SSH key and paste the key into the dialogue. Then <strong>Add SSH key</strong>.
 ### Check whether your repos is working with HTTP or SSH [[2]](https://gist.github.com/asksven/b37e8d83eca7f77484be9dd7af2b98e6):
